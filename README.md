@@ -24,3 +24,7 @@ This is the REAL work:
 ```bash
 python big_data.py
 python big_kpi.py
+
+### 📊 Sales by Branch - R136M
+
+![Branch Sales](IMG-20260922-WA3657.jpg)
