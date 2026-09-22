@@ -8,7 +8,7 @@ From Mahikeng to Klerksdorp - 10,000 transactions analyzed with Python + SQL
 
 ### 🦠 Raw vs Clean (Chapter 1)
 This is the REAL work:
-- Raw: `packpal.db` / `sales_raw` had `Rustenburg / RUSTENBURG / mahikeng / MAHIKENG`
+- Raw: `retail_sales.db` / `sales_raw` had `Rustenburg / RUSTENBURG / mahikeng / MAHIKENG`
 - SQL Proof: `SELECT DISTINCT branch FROM sales_raw` returned 6 (fake count)
 - Fix: `UPPER(TRIM(branch))` + `REPLACE(unit_price, 'R','')` + handle `;` delimiter
 - Clean: 4 real branches ✅ + validated with `Retail_Sales_Clean_Data.csv`
